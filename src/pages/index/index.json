@@ -1,0 +1,6 @@
+{
+  "usingComponents":{
+    "component-test":"./component-test/index",
+    "banners":"../../../components/banners/index"
+  }
+}

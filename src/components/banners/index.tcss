@@ -1,0 +1,31 @@
+.banners .t-carousel-container .t-carousel-slides {
+  margin-left: -8px;
+}
+.banners {
+  height: 100vh;
+}
+.banners .video {
+  height: 100%;
+  width: 100%;
+}
+
+.banners .t-carousel-container .t-carousel-slides .t-carousel-item {
+  height: calc(100vw * 109 / 360);
+  /* min-width: calc(100% - 40px);
+  max-width: calc(100% - 40px); */
+  padding-left: 8px;
+}
+
+.banners .t-carousel-indicator {
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+.banners-skeleton {
+  width: 100%;
+  height: calc(100vw * 109 / 360);
+}
+.video-contain {
+  height: 100vh;
+  width: 100vw;
+}

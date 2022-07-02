@@ -1,0 +1,17 @@
+<view class="{{className}}">
+  <carousel class="banners" tiki:if="{{isLoading}}" autoplay indicator-dots circular>
+    <carousel-item tiki:for="{{[1, 2, 3, 4]}}" tiki:key="*this">
+      <view class="banners-skeleton skeleton" />
+    </carousel-item>
+  </carousel>
+
+  <carousel tiki:else circular class="banners" vertical="{{true}}">
+    <carousel-item tiki:for="{{[banners[0],banners[0]]}}" tiki:key="id">
+      <video id="video" class="video" object-fit="contain" onPlay="onPlay" onPause="onPause" onEnd="onEnd"
+        onError="onError" onTimeUpdate="onTimeUpdate" plays-inline autoplay="{{true}}" controls="{{false}}"
+        src="https://dev-tikiscp.tbox.vn/miniapps/miki/cat.mp4" />
+    </carousel-item>
+  </carousel>
+
+
+</view>

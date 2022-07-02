@@ -1,0 +1,3 @@
+<view>
+  <banners class="home-banners" isLoading="{{isLoading}}" banners="{{banners}}" />
+</view>
