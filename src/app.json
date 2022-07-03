@@ -25,6 +25,7 @@
     ]
   },
   "window": {
-    "defaultTitle": "My App"
+    "defaultTitle": "My App",
+    "allowsBounceVertical": "NO"
   }
 }

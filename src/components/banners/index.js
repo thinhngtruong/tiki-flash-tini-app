@@ -4,4 +4,9 @@ Component({
     isLoading: false,
     className: '',
   },
+  methods: {
+    onChange(e) {
+      console.log(e);
+    },
+  },
 });

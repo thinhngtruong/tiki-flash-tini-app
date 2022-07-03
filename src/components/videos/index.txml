@@ -1,0 +1,10 @@
+<view>
+  <video id="video" class="video" object-fit="contain" onPlay="onPlay" onPause="onPause" onEnd="onEnd" loop="{{true}}"
+    onError="onError" onTimeUpdate="onTimeUpdate" plays-inline autoplay="{{true}}" controls="{{false}}"
+    src="{{videoSrc}}" />
+  <view class="action-btn">
+    <button type="outline">Comment</button>
+    <button type="outline">Like</button>
+    <button type="outline">Share</button>
+  </view>
+</view>
