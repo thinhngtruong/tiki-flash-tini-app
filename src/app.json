@@ -1,7 +1,29 @@
 {
-  "pages": [
-    "pages/index/index"
-  ],
+  "pages": ["pages/index/index", "pages/upload/index", "pages/profile/index"],
+  "tabBar": {
+    "borderTopActiveColor": "#1A94FF",
+    "borderTopColor": "#EBEBF0",
+    "items": [
+      {
+        "name": "Home",
+        "pagePath": "pages/index/index",
+        "icon": "/assets/tab-icons/home-solid.svg",
+        "activeIcon": "assets/tab-icons/home-solid-acvite.svg"
+      },
+      {
+        "name": "Upload",
+        "pagePath": "pages/upload/index",
+        "icon": "/assets/tab-icons/plus-solid.svg",
+        "activeIcon": "assets/tab-icons/plus-solid-active.svg"
+      },
+      {
+        "name": "Profile",
+        "pagePath": "pages/profile/index",
+        "icon": "/assets/tab-icons/user-alt-solid.svg",
+        "activeIcon": "assets/tab-icons/user-alt-solid-active.svg"
+      }
+    ]
+  },
   "window": {
     "defaultTitle": "My App"
   }

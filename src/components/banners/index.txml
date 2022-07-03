@@ -9,7 +9,7 @@
     <carousel-item tiki:for="{{[banners[0],banners[0]]}}" tiki:key="id">
       <video id="video" class="video" object-fit="contain" onPlay="onPlay" onPause="onPause" onEnd="onEnd"
         onError="onError" onTimeUpdate="onTimeUpdate" plays-inline autoplay="{{true}}" controls="{{false}}"
-        src="https://dev-tikiscp.tbox.vn/miniapps/miki/cat.mp4" />
+        src="https://doc-soup-bucket.s3.ap-southeast-1.amazonaws.com/2022-07-03T08:36:41.853531Z-Snaptik_7089905544840006913_d3oratios.mp4" />
     </carousel-item>
   </carousel>
 

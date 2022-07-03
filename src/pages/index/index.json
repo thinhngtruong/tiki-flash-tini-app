@@ -1,6 +1,12 @@
 {
-  "usingComponents":{
-    "component-test":"./component-test/index",
-    "banners":"../../../components/banners/index"
+  "defaultTitle": "Videos",
+  "titleBarColor": "#1A94FF",
+  "titleColor": "#fff",
+  "transparentTitle": "none",
+  "usingComponents": {
+    "component-test": "./component-test/index",
+    "banners": "../../../components/banners/index",
+    "tabs": "@tiki.vn/tini-ui/es/tabs/index",
+    "tab-content": "@tiki.vn/tini-ui/es/tabs/tab-content/index"
   }
 }
