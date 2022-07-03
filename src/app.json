@@ -7,20 +7,20 @@
       {
         "name": "Home",
         "pagePath": "pages/index/index",
-        "icon": "/assets/tab-icons/home-solid.svg",
-        "activeIcon": "assets/tab-icons/home-solid-acvite.svg"
+        "icon": "/assets/tab-icons/home-solid.png",
+        "activeIcon": "assets/tab-icons/home-solid-acvite.png"
       },
       {
         "name": "Upload",
         "pagePath": "pages/upload/index",
-        "icon": "/assets/tab-icons/plus-solid.svg",
-        "activeIcon": "assets/tab-icons/plus-solid-active.svg"
+        "icon": "/assets/tab-icons/plus-solid.png",
+        "activeIcon": "assets/tab-icons/plus-solid-active.png"
       },
       {
         "name": "Profile",
         "pagePath": "pages/profile/index",
-        "icon": "/assets/tab-icons/user-alt-solid.svg",
-        "activeIcon": "assets/tab-icons/user-alt-solid-active.svg"
+        "icon": "/assets/tab-icons/user-alt-solid.png",
+        "activeIcon": "assets/tab-icons/user-alt-solid-active.png"
       }
     ]
   },
